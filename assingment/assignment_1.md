@@ -7,7 +7,6 @@
 ## **Submission Date : 19 May 2025**
 
 ----------
-## **Using while.**
 
 ## **Code :**
 ```Cpp
