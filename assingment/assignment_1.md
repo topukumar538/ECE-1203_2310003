@@ -86,10 +86,10 @@ int main(){
 ```
 
 ## **Output :**
-<p align="center">
+
 ![Image](https://github.com/user-attachments/assets/1e65f86a-1872-4959-ba37-7ee7d740e84a)
 
-</p>
+
 
 
 
