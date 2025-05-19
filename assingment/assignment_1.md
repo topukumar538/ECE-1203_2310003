@@ -87,7 +87,7 @@ int main(){
 
 ## **Output :**
 <p align="center">
-<img src="![image](https://github.com/user-attachments/assets/e4d2f12d-16bc-4456-b661-7cf22c1c467e)">
+![Image](https://github.com/user-attachments/assets/1e65f86a-1872-4959-ba37-7ee7d740e84a)
 
 </p>
 
