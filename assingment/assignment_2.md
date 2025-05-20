@@ -150,3 +150,54 @@ int main(){
 
 
 
+## **Experiment No : 05**
+
+## **Experiment Name :Example-1.**
+
+## **Submission Date : 19 May 2025**
+
+----------
+
+## **Code :**
+```C++
+#include<iostream>
+#include<string>
+using namespace std;
+
+class cars {
+    private:
+        string company_name;
+        string model_name;
+        string fuel_type;
+        float milage;
+        double price;
+    public:
+        void setdata(string cname, string mname, string ftype, float m, double p){
+            company_name = cname;
+            model_name = mname;
+            fuel_type = ftype;
+            milage = m;
+            price = p;
+        }
+        void displaydata() {
+            cout << "company Name: " << company_name <<"\n";
+            cout <<"model name: " << model_name <<"\n";
+            cout << "fuel_type: "<< fuel_type <<"\n";
+            cout<< "Milage: "<< milage <<endl;
+            cout << "price: "<< price << endl;
+        }
+};
+
+
+int main(){
+
+    cars car1;
+    car1.displaydata();
+}
+
+
+```
+
+## **Output :**
+![image](https://github.com/user-attachments/assets/b13df4b8-7506-45e2-9ee8-d97ce364d8e2)
+
