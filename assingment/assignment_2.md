@@ -40,9 +40,30 @@ int main(){
 
 ## **Code :**
 ```C++
+#include<iostream>
+#include<string>
+using namespace std;
+
+class car {
+    public:
+    string brand;
+    string model;
+    int year;
+    car(string b, string m, int y){
+        brand =b;
+        model =m;
+        year = y;
+    }
+};
+
+int main(){
+    car obj("BMW", "X5", 1999);
+    cout << obj.brand << " "<< obj.model <<" "<<obj.year<<"\n";
+}
 
 ```
 
 ## **Output :**
-![Screenshot 2025-05-19 230310](https://github.com/user-attachments/assets/ec8a611f-1a75-404a-8565-275dfd2ee6e9)
+![image](https://github.com/user-attachments/assets/eff34429-953c-41d5-a0c1-f710f820e477)
+
 
