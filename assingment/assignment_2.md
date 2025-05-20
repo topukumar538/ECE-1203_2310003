@@ -201,3 +201,60 @@ int main(){
 ## **Output :**
 ![image](https://github.com/user-attachments/assets/b13df4b8-7506-45e2-9ee8-d97ce364d8e2)
 
+
+
+
+## **Experiment No : 06**
+
+## **Experiment Name :Example-1.**
+
+## **Submission Date : 19 May 2025**
+
+----------
+
+## **Code :**
+```C++
+#include<iostream>
+#include<string>
+using namespace std;
+
+class cars {
+    private:
+        string company_name;
+        string model_name;
+        string fuel_type;
+        float milage;
+        double price;
+    public:
+       cars (){
+            company_name = "Toyota";
+            model_name = "Altia";
+            fuel_type = "petrol";
+            milage = 20;
+            price = 20000;
+        }
+        void displaydata() {
+            cout << "company Name: " << company_name <<"\n";
+            cout <<"model name: " << model_name <<"\n";
+            cout << "fuel_type: "<< fuel_type <<"\n";
+            cout<< "Milage: "<< milage <<endl;
+            cout << "price: "<< price << endl;
+        }
+};
+
+
+int main(){
+
+    cars car1;
+    
+    car1.displaydata();
+}
+
+
+
+```
+
+## **Output :**
+![image](https://github.com/user-attachments/assets/645298b2-b45e-4267-ab6a-6a6c3a911198)
+
+
