@@ -32,7 +32,7 @@ int main(){
 
 ## **Experiment No : 02**
 
-## **Experiment Name :  constructors.**
+## **Experiment Name : Parameterized constructors.**
 
 ## **Submission Date : 19 May 2025**
 
@@ -65,5 +65,47 @@ int main(){
 
 ## **Output :**
 ![image](https://github.com/user-attachments/assets/eff34429-953c-41d5-a0c1-f710f820e477)
+
+
+
+## **Experiment No : 03**
+
+## **Experiment Name : Parameterized constructors.**
+
+## **Submission Date : 19 May 2025**
+
+----------
+
+## **Code :**
+```C++
+#include<iostream>
+#include<string>
+using namespace std;
+
+class car {
+    public:
+    string brand;
+    string model;
+    int year;
+    car(string b, string m, int y);
+};
+
+car::car(string b, string m, int y){
+        brand =b;
+        model =m;
+        year = y;
+    }
+
+int main(){
+    car obj("BMW", "X5", 1999);
+    cout << obj.brand << " "<< obj.model <<" "<<obj.year<<"\n";
+}
+
+
+```
+
+## **Output :**
+![image](https://github.com/user-attachments/assets/620f0c2b-ffa0-4cf1-a536-dfb5083b1803)
+
 
 
