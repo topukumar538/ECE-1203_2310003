@@ -108,4 +108,45 @@ int main(){
 ![image](https://github.com/user-attachments/assets/620f0c2b-ffa0-4cf1-a536-dfb5083b1803)
 
 
+## **Experiment No : 04**
+
+## **Experiment Name :Example-1.**
+
+## **Submission Date : 19 May 2025**
+
+----------
+
+## **Code :**
+```C++
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+class cars {
+    private:
+        string company_name;
+        string model_name;
+        string fuel_type;
+        float milage;
+        double price;
+    public:
+        cars(){
+            cout<<"default\n";
+        }
+};
+
+
+int main(){
+
+    cars car1, car2;
+}
+
+
+```
+
+## **Output :**
+![image](https://github.com/user-attachments/assets/0024dafd-a3d5-495a-8e59-172f43436c28)
+
+
 
