@@ -39,7 +39,7 @@ Rajshahi 6204
 
 | Assignment No. | Title               | Link                                                                                                           | Remarks |
 |---------|----------------------|----------------------------------------------------------------------------------------------------------------|---------|
-| 01      |Class and obj    | [Banking System](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_1.md)|| |
+| 01      |Class and obj    | [class and obj](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_1.md)|| |
 
 
 </div>
