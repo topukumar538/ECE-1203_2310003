@@ -1,7 +1,7 @@
 ----------
 ## **Assignment No : 01**
 
-## **Assignment Name : Inheritance in protected mode :**
+## **Assignment Name : Inheritance in public mode :**
 
 ## **Submission Date : 21/6/2025**
 
@@ -73,5 +73,74 @@ int main()
 ---------
 
 
+
+## **Assignment No : 02**
+
+## **Assignment Name : Inheritance in protected mode :**
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+# include<iostream>
+using namespace std;
+
+class Base
+{
+    private :
+    string pvt="private";
+    public :
+    string pub="public";
+    protected :
+    string pro="protected";
+    public:
+    void access()
+    {
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+class child1 : protected Base
+{
+public:
+    void access_child_1()
+    {
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+class child2 : protected child1{
+public:
+    void access_child_2(){
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+int main()
+{
+    child1 ch1;
+    ch1.access_child_1();
+    child2 ch2;
+    ch2.access_child_2();
+    return 0;
+}
+
+
+```
+
+## **Output :**
+
+--------
+![image](https://github.com/user-attachments/assets/ebfb6f04-0b18-498a-9caa-4d282279d41c)
+
+---------
 
 
