@@ -141,3 +141,29 @@ int main()
 ## Discussion : Base Class's only private variables are not being able to access from A class and B class. Rest of them are accessible from both classes.
 ---------
 
+
+
+## **Assignment No : 03**
+
+## **Assignment Name : Inheritance in private mode :**
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+
+
+```
+
+## **Output :**
+
+--------
+![image](https://github.com/user-attachments/assets/dc12a978-ef76-4e53-ab86-73a441745ab4)
+
+---------
+## Discussion : A can not access private data member and B can not access any data member from BaseClass.
+---------
+
+
