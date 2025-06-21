@@ -1,7 +1,7 @@
 ----------
 ## **Assignment No : 01**
 
-## **Assignment Name : Object and Class.**
+## **Assignment Name : Inheritafnce in protected mode :**
 
 ## **Submission Date : 21/6/2025**
 
@@ -68,9 +68,10 @@ int main()
 ## **Output :**
 
 ![image](https://github.com/user-attachments/assets/2003e0f4-a1de-48a7-8d49-6abaa139811c)
+--------
 ## Discussion : Base Class's only private variables are not being able to access from Child1 class and Child2 class. Rest of them are accessible from both classes.
 ---------
---------
+
 
 
 
