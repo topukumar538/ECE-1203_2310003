@@ -142,5 +142,6 @@ int main()
 ![image](https://github.com/user-attachments/assets/ebfb6f04-0b18-498a-9caa-4d282279d41c)
 
 ---------
-
+## Discussion : Base Class's only private variables are not being able to access from Child1 class and Child2 class. Rest of them are accessible from both classes.
+---------
 
