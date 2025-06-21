@@ -218,6 +218,113 @@ int main()
 
 ## **Assignment No : 04**
 
+## **Assignment Name : Friend class**
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+
+# include<iostream>
+using namespace std;
+
+class A
+{
+    int value;
+    public:
+    A(int v) {
+        value = v;
+    }
+    friend class B;
+};
+
+class B 
+{
+    int b = 10;
+public:
+void show(A &a) {
+    cout<<"Value: "<<a.value<<endl;
+}
+void show() {
+    cout<<"value: "<<b<<endl;
+}
+    
+};
+
+
+int main()
+{
+    A objA(50);     
+    B objB;      
+
+    objB.show(objA);
+    objB.show();
+    return 0;
+}
+
+```
+
+## **Output :**
+
+--------
+![image](https://github.com/user-attachments/assets/0d92c1ae-d7f1-4432-a1d0-35eafbeda9fd)
+
+---------
+
+## Discussion : Successfully shown the output. Class B is a friend class of class A. So it can access Class A's data.
+---------
+
+
+
+## **Assignment No : 05**
+
+## **Assignment Name : Friend function**
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+
+# include<iostream>
+using namespace std;
+
+class A
+{
+    int value;
+    public:
+    A() {
+        value = 5;
+    }
+    friend void show(A);
+};
+
+void show(A s) {
+    cout << s.value<< endl;
+}
+
+int main() {
+    A obj;
+    show(obj);
+}
+```
+
+## **Output :**
+
+--------
+![image](https://github.com/user-attachments/assets/32c0fd78-f4ac-4598-99bd-893cf5f0abd0)
+
+---------
+## Discussion : Successfully shown the output. function show() can access the private member of class A as it is friend function.
+---------
+
+
+
+## **Assignment No : 06**
+
 ## **Assignment Name : **
 
 ## **Submission Date : 21/6/2025**
@@ -233,9 +340,7 @@ int main()
 ## **Output :**
 
 --------
-![image](https://github.com/user-attachments/assets/dc12a978-ef76-4e53-ab86-73a441745ab4)
 
 ---------
-## Discussion : A can not access private data member and B can not access any data member from BaseClass.
 ---------
 
