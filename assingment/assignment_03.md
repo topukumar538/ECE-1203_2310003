@@ -325,7 +325,7 @@ int main() {
 
 ## **Assignment No : 06**
 
-## **Assignment Name : **
+## **Assignment Name : constractor**
 
 ## **Submission Date : 21/6/2025**
 
@@ -344,3 +344,25 @@ int main() {
 ---------
 ---------
 
+
+
+## **Assignment No : 06**
+
+## **Assignment Name : **
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+
+
+```
+
+## **Output :**
+
+--------
+
+---------
+---------
