@@ -12,7 +12,6 @@
 # include<iostream>
 using namespace std;
 
-
 class Base
 {
     private :
@@ -22,31 +21,28 @@ class Base
     protected :
     string pro="protected";
     public:
-    void access_base()
+    void access()
     {
-        cout<<"Base Class is Acessing it's own variables below :" << endl;
         cout<<pvt<<endl;
         cout<<pub<<endl;
         cout<<pro<<endl;
     }
 };
 
-class child1 : public Base
+class A : public Base
 {
 public:
-    void access_child_1()
+    void access_A()
     {
-        cout << "Child_1 is Acessing Base Class's variables :" << endl;
         cout<<pvt<<endl;
         cout<<pub<<endl;
         cout<<pro<<endl;
     }
 };
 
-class child2 : public child1{
+class B : public A{
 public:
-    void access_child_2(){
-        cout << "Child_2 is Acessing Base Class's variables :" << endl;
+    void access_B(){
         cout<<pvt<<endl;
         cout<<pub<<endl;
         cout<<pro<<endl;
@@ -55,10 +51,10 @@ public:
 
 int main()
 {
-    child1 ch1;
-    ch1.access_child_1();
-    child2 ch2;
-    ch2.access_child_2();
+    A ch1;
+    ch1.access_A();
+    B ch2;
+    ch2.access_B();
     return 0;
 }
 
@@ -104,10 +100,10 @@ class Base
     }
 };
 
-class child1 : protected Base
+class A : protected Base
 {
 public:
-    void access_child_1()
+    void access_A()
     {
         cout<<pvt<<endl;
         cout<<pub<<endl;
@@ -115,9 +111,9 @@ public:
     }
 };
 
-class child2 : protected child1{
+class B : protected A{
 public:
-    void access_child_2(){
+    void access_B(){
         cout<<pvt<<endl;
         cout<<pub<<endl;
         cout<<pro<<endl;
@@ -126,10 +122,10 @@ public:
 
 int main()
 {
-    child1 ch1;
-    ch1.access_child_1();
-    child2 ch2;
-    ch2.access_child_2();
+    A ch1;
+    ch1.access_A();
+    B ch2;
+    ch2.access_B();
     return 0;
 }
 
