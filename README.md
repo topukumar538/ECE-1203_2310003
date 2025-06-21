@@ -41,6 +41,7 @@ Rajshahi 6204
 |---------|----------------------|----------------------------------------------------------------------------------------------------------------|---------|
 | 01      |Class and obj    | [class and obj](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_1.md)|| |
 | 02      |constructor      | [constructor](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_2.md)|| | 
+| 03      | class & access     | [class](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_03.md)
 
 
 </div>
