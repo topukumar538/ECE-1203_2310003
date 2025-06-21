@@ -153,6 +153,54 @@ int main()
 
 ## **Code :**
 ```Cpp
+# include<iostream>
+using namespace std;
+
+class Base
+{
+    private :
+    string pvt="private";
+    public :
+    string pub="public";
+    protected :
+    string pro="protected";
+    public:
+    void access()
+    {
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+class A : private Base
+{
+public:
+    void access_A()
+    {
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+class B : private A{
+public:
+    void access_B(){
+        cout<<pvt<<endl;
+        cout<<pub<<endl;
+        cout<<pro<<endl;
+    }
+};
+
+int main()
+{
+    A ch1;
+    ch1.access_A();
+    B ch2;
+    ch2.access_B();
+    return 0;
+}
 
 
 ```
@@ -166,4 +214,28 @@ int main()
 ## Discussion : A can not access private data member and B can not access any data member from BaseClass.
 ---------
 
+
+
+## **Assignment No : 04**
+
+## **Assignment Name : **
+
+## **Submission Date : 21/6/2025**
+
+----------
+
+## **Code :**
+```Cpp
+
+
+```
+
+## **Output :**
+
+--------
+![image](https://github.com/user-attachments/assets/dc12a978-ef76-4e53-ab86-73a441745ab4)
+
+---------
+## Discussion : A can not access private data member and B can not access any data member from BaseClass.
+---------
 
