@@ -1,7 +1,7 @@
 ----------
 ## **Assignment No : 01**
 
-## **Assignment Name : Inheritafnce in protected mode :**
+## **Assignment Name : Inheritance in protected mode :**
 
 ## **Submission Date : 21/6/2025**
 
