@@ -115,3 +115,49 @@ This C++ program shows a simple stack using a class with a character array and a
 
 
 
+
+
+----------
+## **Assignment No : 03**
+
+## **Assignment Name :Passing objects to function**
+
+----------
+
+## **Code :**
+```Cpp
+#include <iostream>
+using namespace std;
+class A{
+    int a;
+    public:
+    A(int p){
+        a=p;
+    }
+    int get(){
+        return a;
+    }
+};
+int  sq(A ob){
+    return ob.get()*ob.get();
+}
+
+int main(){
+    A x(1),y(16);
+
+    cout<<sq(x)<<endl;
+    cout<<sq(y)<<endl;
+}
+
+
+
+```
+
+## **Output :**
+
+<img width="334" height="70" alt="image" src="https://github.com/user-attachments/assets/61fc3d05-77f6-42ed-ba86-fb72d10ba064" />
+
+## **Discussion :**
+
+The class A has a private integer a, which is set through the constructor. The get() method returns this value. In the main() function, two objects x and y are created with values 1 and 16. When the sq() function is called, it uses get() to access a and returns its square. So, x.sq() returns 1 and y.sq() returns 256.
+
