@@ -50,12 +50,12 @@ This C++ code demonstrates object assignment. A class has a set() function to in
 ## **Code :**
 ```Cpp
 
+
 #include <iostream>
 using namespace std;
-#define size 10
 class stack
 {
-    char stk[size];
+    char arr[3];
     int tos;
 
 public:
@@ -63,22 +63,22 @@ public:
     tos = 0;
 }
     void push(char ch) {
-    if (tos == size)
-    {
-        cout << "stack is full" << endl;
-        return;
-    }
-    stk[tos] = ch;
-    tos++;
+        if (tos == 3)
+        {
+            cout << "stack is full" << endl;
+            return;
+        }
+        arr[tos] = ch;
+        tos++;
 }
     char pop() {
-    if (tos == 0)
-    {
-        cout << "Stack is empty" << endl;
-        return 0;
-    }
-    tos--;
-    return stk[tos];
+        if (tos == 0)
+        {
+            cout << "Stack is empty" << endl;
+            return '0';
+        }
+        tos--;
+        return arr[tos];
 }
 };
 
@@ -103,6 +103,7 @@ int main()
     }
     return 0;
 }
+
 
 ```
 
