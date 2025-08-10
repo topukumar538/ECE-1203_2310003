@@ -92,10 +92,6 @@ int main()
     s1.push('c');
 
     s2 = s1; 
-    for (int i = 0; i < 3; i++)
-    {
-        cout << s1.pop() << endl;
-    }
 
     for (int i = 0; i < 3; i++)
     {
@@ -109,7 +105,7 @@ int main()
 
 ## **Output :**
 
-<img width="449" height="161" alt="image" src="https://github.com/user-attachments/assets/bfe4957c-5e2c-42a8-ab16-4c337ed9fbbc" />
+<img width="303" height="98" alt="image" src="https://github.com/user-attachments/assets/a45c39af-392c-42a8-a663-5ff19941620d" />
 
 ## **Discussion :**
 This C++ program shows a simple stack using a class with a character array and a top-of-stack index. The push() and pop() functions manage stack operations. In main(), after pushing 'a', 'b', and 'c' into s1, assigning s1 to s2 copies the entire stack state, making s2 an exact copy of s1.
@@ -121,7 +117,7 @@ This C++ program shows a simple stack using a class with a character array and a
 ----------
 ## **Assignment No : 03**
 
-## **Assignment Name :Passing objects to function**
+## **Assignment Name : square a number**
 
 ----------
 
@@ -157,6 +153,30 @@ int main(){
 ## **Output :**
 
 <img width="334" height="70" alt="image" src="https://github.com/user-attachments/assets/61fc3d05-77f6-42ed-ba86-fb72d10ba064" />
+
+## **Discussion :**
+
+The class A has a private integer a, which is set through the constructor. The get() method returns this value. In the main() function, two objects x and y are created with values 1 and 16. When the sq() function is called, it uses get() to access a and returns its square. So, x.sq() returns 1 and y.sq() returns 256.
+
+
+
+
+
+
+----------
+## **Assignment No : 04**
+
+## **Assignment Name :Passing objects to function**
+
+----------
+
+## **Code :**
+```Cpp
+
+```
+
+## **Output :**
+
 
 ## **Discussion :**
 
