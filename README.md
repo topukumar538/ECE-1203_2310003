@@ -43,7 +43,7 @@ Rajshahi 6204
 | 02      |constructor      | [constructor](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_2.md)|| | 
 | 03      | class & access     | [class](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_03.md)
 | 04      | Keywords        | [Keyword](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_04.md) |
-| 05      | object          | [Object]()|
+| 05      | object          | [Object](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_05.md)|
 
 
 </div>
