@@ -44,6 +44,7 @@ Rajshahi 6204
 | 03      | class & access     | [class](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_03.md)
 | 04      | Keywords        | [Keyword](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_04.md) |
 | 05      | object          | [Object](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_05.md)|
+| 06      | Exception       | [Exception](https://github.com/topukumar538/ECE-1203_2310003/blob/main/assingment/assignment_06.md)|
 
 
 </div>
