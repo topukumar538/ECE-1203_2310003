@@ -207,3 +207,64 @@ void Xhandler(int test)
 <img width="555" height="136" alt="image" src="https://github.com/user-attachments/assets/02696cde-6b64-486b-b510-359178eb1943" />
 
 
+
+
+
+
+
+----------
+## **Assignment No : 06**
+
+## **Assignment Name : Calculator**
+
+----------
+
+## **Code :**
+```Cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    char c;
+
+    cout << "Enter first number: ";
+    cin >> a;
+
+    cout << "Enter second number: ";
+    cin >> b;
+
+    cout << "Enter operator (+, -, *, /): ";
+    cin >> c;
+
+    try {
+        if (c == '+') {
+            cout << "a + b = " << a + b << endl;
+        }
+        else if (c == '-') {
+            cout << "a - b = " << a - b << endl;
+        }
+        else if (c == '*') {
+            cout << "a * b = " << a * b << endl;
+        }
+        else if (c == '/') {
+            if (b == 0)
+                throw runtime_error("Division by zero error");
+            cout << "a / b = " << a / b << endl;
+        }
+        else {
+            throw invalid_argument("Invalid operator");
+        }
+    }
+    catch (const exception& e) {
+        cout << "Error: " << e.what() << endl;
+    }
+
+}
+```
+
+## **Output :**
+<img width="566" height="118" alt="image" src="https://github.com/user-attachments/assets/bd940c5f-f439-4bc1-8704-5197ca079e81" />
+
+
+
