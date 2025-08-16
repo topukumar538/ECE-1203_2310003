@@ -256,7 +256,7 @@ int main() {
             throw invalid_argument("Invalid operator");
         }
     }
-    catch (const exception& e) {
+    catch (exception& e) {
         cout << "Error: " << e.what() << endl;
     }
 
